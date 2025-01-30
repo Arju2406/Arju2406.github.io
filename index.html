@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun L - Data Analyst Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #2c3e50;
+            --light-bg: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .header .role {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            color: var(--secondary-color);
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .profile-summary {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--light-bg);
+            border-radius: 5px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .experience-item,
+        .project-item,
+        .education-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--light-bg);
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        .experience-item:hover,
+        .project-item:hover {
+            transform: translateX(5px);
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .item-subtitle {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            background: var(--light-bg);
+            border-radius: 3px;
+        }
+
+        .skills-list li:hover {
+            background: var(--accent-color);
+            color: white;
+            cursor: pointer;
+        }
+
+        .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .language-item {
+            padding: 0.5rem 1rem;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>ARJUN L</h1>
+            <div class="role">Data Analyst</div>
+            <div class="contact-info">
+                174/1, Viruthachalam Main Road, Bhuvanagiri-608601, India<br>
+                Phone: +91 6383333584 | Email: <a href="mailto:larjun2406@gmail.com">larjun2406@gmail.com</a><br>
+                <a href="https://linkedin.com/in/Arjun%20L" target="_blank">LinkedIn Profile</a> | 
+                <a href="https://github.com/Arju2406" target="_blank">GitHub Profile</a>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="left-column">
+                <section class="section">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <div class="education-item">
+                        <div class="item-title">M.Sc - Computer Science</div>
+                        <div class="item-subtitle">Karpagam Academy of Higher Education</div>
+                        <div>2022 - 2024 | CGPA: 76%</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="item-title">B.Sc - Computer Science</div>
+                        <div class="item-subtitle">St Joseph Arts and Science College</div>
+                        <div>2019 - 2022 | CGPA: 64%</div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">WORK EXPERIENCE</h2>
+                    <div class="experience-item">
+                        <div class="item-title">Internship: Data Analytics</div>
+                        <div class="item-subtitle">Career School HR Solutions, Chennai</div>
+                        <div>05/2024 – 09/2024</div>
+                        <p>As a Data Analyst in training, I focused on large-scale data analysis, cleaning, and applying statistical models to generate actionable insights. I refined my coding techniques and problem-solving skills, working on real-world datasets to help businesses make data-driven decisions. This role has allowed me to gain hands-on experience with a variety of analytics tools and techniques.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="item-title">Data Scientist</div>
+                        <div class="item-subtitle">Emayam Technologies Pvt. Ltd.</div>
+                        <div>09/2024 – Present</div>
+                        <p>As a Data Scientist at Emayam Technologies, I worked on various data-centric projects that involved applying machine learning models, data cleaning, and statistical analysis. I collaborated with senior data scientists to help automate processes and provide insights that drove product development and business strategies. The internship also involved real-time data processing and using web scraping techniques to gather business intelligence from external sources.</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">PROJECTS</h2>
+                    <div class="project-item">
+                        <div class="item-title">Transaction Pattern Mining for Credit Card Fraud Detection</div>
+                        <div class="item-subtitle">Technologies: Python, Machine Learning, Isolation Forest Algorithm</div>
+                        <p>Developed a machine learning model using the Isolation Forest algorithm to identify fraudulent transactions by analyzing patterns in transaction data. The model calculates the probability of fraud, helping to protect users against credit card fraud. This project demonstrated an application of machine learning for real-world financial problems, enhancing the security of digital transactions.</p>
+                    </div>
+                    <div class="project-item">
+                        <div class="item-title">Google Maps Data Scraper</div>
+                        <div class="item-subtitle">Technologies: Python, Selenium</div>
+                        <p>Built a web scraping tool to extract business information from Google Maps, including company names, addresses, contact details, and ratings. The data was saved in multiple formats (Excel, CSV, JSON) and used for lead generation. This tool automates data extraction, making it easy to collect actionable insights for businesses and sales teams.</p>
+                    </div>
+                    <div class="project-item">
+                        <div class="item-title">Company Info Finder</div>
+                        <div class="item-subtitle">Technologies: Python, BeautifulSoup, Google Search API, Custom Search Engine</div>
+                        <p>Created a tool that scrapes company information based on names provided in an Excel file. The app supports both quick search and batch processing, making it easier to gather data for multiple companies at once. Integrated Google Search API with a custom search engine to retrieve relevant business data efficiently. This tool streamlines market research and competitive analysis by automating data collection.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="section">
+                    <h2 class="section-title">PROFILE SUMMARY</h2>
+                    <div class="profile-summary">
+                        A highly analytical and results-driven professional with a strong ability to extract valuable insights from complex datasets. Experienced in organizing, analyzing, and interpreting large volumes of information to drive informed decision-making. Skilled in transforming raw data into clear, actionable strategies that optimize performance and improve efficiency. Adept at identifying patterns, forecasting trends, and simplifying complex data into meaningful narratives that enhance business growth. Passionate about leveraging data to uncover opportunities, streamline operations, and support strategic objectives.
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">KEY DATA ANALYTICS SKILLS</h2>
+                    <ul class="skills-list" id="dataSkills">
+                        <li>Data Analysis & Visualization: PowerBI, Excel, Pandas, NumPy, Matplotlib, Seaborn, Plotly</li>
+                        <li>Programming Skills: Python, SQL</li>
+                        <li>Statistics Analysis: Regression, Predictive Modeling, SciPy, Statsmodels, Scikit-learn</li>
+                        <li>Data Management: Data Cleaning, ETL Processes, Dask, SQLAlchemy</li>
+                        <li>Web Scraping: Beautiful Soup, Selenium, Requests</li>
+                        <li>Tools: Microsoft Excel, PowerBI, MySQL, Visual Studio</li>
+                        <li>AI Tools: Julus AI, Rows, SheetAI, ChartPixel, ChatCSV, Genius Sheets, Equals, GigaSheet, ArcWise, Numerous AI</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">KEY STRENGTHS</h2>
+                    <ul class="skills-list">
+                        <li>Strong written and spoken communication</li>
+                        <li>Problem solving and decision making</li>
+                        <li>Ability to work in challenging environments</li>
+                        <li>Meticulous and Quick-Learner</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">SKILL HIGHLIGHTS</h2>
+                    <ul class="skills-list">
+                        <li>Flexibility with time management</li>
+                        <li>Team coordination</li>
+                        <li>Good agility towards learning</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">INTERESTS</h2>
+                    <ul class="skills-list">
+                        <li>Data Science</li>
+                        <li>Learning new technology</li>
+                        <li>Developing communication skills</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">LANGUAGES</h2>
+                    <div class="languages-list">
+                        <span class="language-item">English</span>
+                        <span class="language-item">Tamil</span>
+                        <span class="language-item">Telugu</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Arjun L. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Add hover effect to skills
+        document.querySelectorAll('.skills-list li').forEach(skill => {
+            skill.addEventListener('mouseenter', function () {
+                this.style.transition = 'all 0.3s ease';
+            });
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
